@@ -22,14 +22,14 @@ body {
   grid-template-rows: 25% auto;
 }
 
-.calculator .result {
+.calculator .result-container {
   background-color: white;
   display: flex;
   justify-content: flex-end;
   align-items: end;
   padding: 0.1em;
 }
-.calculator .result span {
+.calculator .result-container span#result {
   font-family: "Cambria Math", Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.5em;
   line-height: 8.75vh;
