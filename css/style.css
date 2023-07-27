@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010124;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 20%;
+  max-width: 25em;
+  height: 70%;
+  display: grid;
+  grid-template-rows: 25% auto;
+}
+
+.calculator .result {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding: 0.1em;
+}
+.calculator .result span {
+  font-family: "Cambria Math", Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5em;
+  line-height: 8.75vh;
+  text-align: end;
+  overflow-y: scroll;
+  height: 100%;
+}
+.calculator .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.calculator .buttons .btn {
+  border: none;
+}
