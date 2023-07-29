@@ -24,18 +24,13 @@ body {
 
 .calculator .result-container {
 	background-color: white;
-	display: flex;
-	justify-content: flex-end;
-	align-items: end;
-	padding: 0.1em;
+	padding: 0.1em 1em;
+	overflow: auto;
 }
 .calculator .result-container span#result {
 	font-family: 'Cambria Math', Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 2.5em;
-	line-height: 8.75vh;
-	text-align: end;
-	overflow-y: scroll;
-	height: 100%;
+	font-size: 2.4em;
+	line-height: 7.4vh;
 }
 .calculator .buttons {
 	display: grid;
